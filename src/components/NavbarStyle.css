@@ -1,0 +1,84 @@
+.Container {
+  height: 60px;
+  padding: 10px 20px;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #96e6a1;
+  position: fixed;
+  top: 25px;
+  left: 0;
+  right: 0;
+  z-index: 5;
+}
+
+.Logo {
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Search-Input {
+  height: 25px;
+  width: 300px;
+  border-radius: 10px;
+  border-color: transparent;
+  padding-right: 30px;
+  box-shadow: none;
+  outline: none;
+}
+
+.Search {
+  border: none;
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  padding: 5px;
+  position: relative;
+}
+
+.Search-Icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.Menu-Items {
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .Container {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .Search {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  .Search-Input {
+    width: 100%;
+  }
+
+  .Search-Icon {
+    position: static;
+    transform: none;
+    margin-left: 5px;
+  }
+
+  .Menu-Items {
+    margin-top: 10px;
+    gap: 10px;
+  }
+}

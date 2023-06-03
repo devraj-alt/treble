@@ -1,0 +1,38 @@
+.Announcement {
+  height: 25px;
+  align-items: center;
+  background: linear-gradient(to right, #f5f5dc, teal, #e6e6fa);
+  display: flex;
+  font-size: 14px;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+}
+
+.Announcement-text {
+  color: white;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Announcement {
+    font-size: 12px;
+  }
+
+  .Announcement-text {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+  .Announcement {
+    font-size: 14px;
+  }
+
+  .Announcement-text {
+    font-size: 18px;
+  }
+}

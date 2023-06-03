@@ -1,0 +1,64 @@
+.Filter-container {
+  position: fixed;
+  left: 0;
+  top: 120px;
+  bottom: 0;
+  background-color: whitesmoke;
+  margin: 5px;
+}
+
+@media (max-width: 768px) {
+  .Filter-container {
+    position: fixed;
+    margin-bottom: 10px;
+  }
+}
+
+.Heading {
+  font-size: 25px;
+  text-align: start;
+}
+
+.Category-name {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.List-style {
+  list-style: none;
+  margin-left: -30px;
+  margin-top: 2.5px;
+  margin-bottom: 2.5px;
+}
+
+.List-style input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.Buttons-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: start;
+}
+
+.Filter-button {
+  border-radius: 5px;
+  width: 60px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 15px;
+  color: white;
+  background-color: teal;
+  border: none;
+}
+
+.Clear-button {
+  border-radius: 5px;
+  width: 60px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 15px;
+  color: white;
+  background-color: teal;
+  border: none;
+}

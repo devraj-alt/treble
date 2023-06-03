@@ -1,0 +1,112 @@
+.Footer {
+  display: flex;
+  background-color: #96e6a1;
+}
+
+.About-Section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.Logo-footer {
+}
+
+.Company-About {
+  margin: 20px 0px;
+}
+
+.Social-container {
+  display: flex;
+}
+
+.Social-Icon-github {
+  width: 40px;
+  height: 40px;
+  border: 0.2px solid gray;
+  border-radius: 50%;
+  color: #000000;
+  background-color: white;
+  margin: 5px;
+}
+
+.Social-Icon-linkedin {
+  width: 40px;
+  height: 40px;
+  border: 0.2px solid gray;
+  border-radius: 50%;
+  color: #1e90ff;
+  background-color: white;
+  margin: 5px;
+}
+
+.Social-Icon-twitter {
+  width: 40px;
+  height: 40px;
+  border: 0.2px solid gray;
+  border-radius: 50%;
+  color: #00bfff;
+  background-color: white;
+  margin: 5px;
+}
+.Link-Section {
+  flex: 1;
+  padding: 20px;
+}
+
+.Footer-Links {
+  font-size: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.Link-List {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.List-Item {
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.Contact-Section {
+  flex: 1;
+  padding: 20px;
+}
+
+.Contact-Header {
+  text-align: end;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.Map-Icon {
+  margin-right: 10px;
+}
+
+.Contact-Address {
+}
+
+.Phone-Icon {
+  margin-right: 10px;
+}
+
+.Contact-Phone {
+}
+
+.Email-Icon {
+  margin-right: 10px;
+}
+
+.Contact-Email {
+}
+
+.Payment-Image {
+  width: 100%;
+}

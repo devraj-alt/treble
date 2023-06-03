@@ -1,0 +1,36 @@
+.Banner-container {
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 5%;
+  cursor: pointer;
+}
+
+.Image-Container {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 400px;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .Banner-container {
+    flex-direction: column;
+  }
+
+  .Image-Container {
+    height: 320px;
+    width: 80%;
+    border-radius: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Image-Container {
+    height: 200px;
+    width: 70%;
+    border-radius: 100px;
+  }
+}

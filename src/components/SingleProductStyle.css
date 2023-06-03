@@ -1,0 +1,68 @@
+.Wraper {
+  margin-top: 105px;
+  padding: 50px;
+  display: flex;
+}
+
+.Product-Image-Container {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+}
+
+.Product-Img {
+  height: 60vh;
+  width: 80vh;
+}
+
+.Info-Container {
+  padding: 0px, 50px;
+}
+
+.Product-Name {
+  font-weight: 200;
+  font-size: 40px;
+  padding: 20px;
+}
+
+.Product-Price {
+  font-weight: 100;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.Product-Description {
+  margin: 20px, 0px;
+  padding: 20px;
+  text-align: justify;
+}
+
+.Button-Container {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+
+.AddCartButton {
+  margin: 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  height: 30px;
+  width: 20%;
+  background-color: teal;
+  color: white;
+  font-size: 20px;
+}
+
+.BuyNowButton {
+  margin: 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  height: 30px;
+  width: 20%;
+  background-color: teal;
+  color: white;
+  font-size: 20px;
+}

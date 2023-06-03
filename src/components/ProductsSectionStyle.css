@@ -1,0 +1,51 @@
+.ProductList-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: whitesmoke;
+  margin-left: auto;
+  margin-top: 105px;
+}
+
+.Image-container {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  padding: 20px;
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.Image-container:hover {
+  background-color: white;
+  transform: scale(1.1);
+}
+
+.Icon-container {
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.Item-price {
+  font-size: 20px;
+  padding-left: 15px;
+  color: black;
+}
+
+.Item-name {
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  text-align: center;
+}

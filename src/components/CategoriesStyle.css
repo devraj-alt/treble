@@ -1,0 +1,41 @@
+.Category-container {
+  justify-content: center;
+  display: flex;
+  margin: 3px;
+  height: 50vh;
+  position: relative;
+}
+
+.Categories-button {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #ffdab9;
+  border: 0.5px solid gray;
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+  line-height: 50px;
+  margin: 80px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+@media only screen and (max-width: 768px) {
+  .Category-container {
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .Categories-button {
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+    line-height: 30px;
+  }
+}
+
+.Categories-button:hover {
+  background-color: #f5deb3;
+  transform: scale(1.1);
+}
