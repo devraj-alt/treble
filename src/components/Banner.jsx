@@ -11,9 +11,6 @@ export const Banner = () => {
         alt="girl with headphone"
         src={Bannerimage}
         className="Image-Container"
-        onClick={() => {
-          navigate("/productlist");
-        }}
       />
     </div>
   );

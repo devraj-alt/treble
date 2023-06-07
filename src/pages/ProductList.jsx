@@ -7,7 +7,7 @@ export const ProductList = () => {
   return (
     <div style={{ position: "relative", backgroundColor: "whitesmoke" }}>
       <Announcement />
-      <Navbar />
+      <Navbar showSearch={true} />
       <Filter />
       <ProductsSection />
     </div>

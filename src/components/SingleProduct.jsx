@@ -1,27 +1,44 @@
+import { useLocation, useNavigate } from "react-router-dom";
 import "./SingleProductStyle.css";
+import { addToCart } from "../pages/services/Cart";
+import { useCart } from "../context/provider/CartProvider";
+import { CartActionType } from "../utils/Constants";
 
 export const SingleProduct = () => {
+  const location = useLocation();
+  const { state } = location;
+  const item = state?.selectedItem;
+
+  const navigate = useNavigate();
+
+  const { cartState, cartDispatch } = useCart();
+
+  const isInCart = cartState.cartData?.some((data) => data._id === item._id);
+
+  const addITemToCart = async () => {
+    const data = await addToCart(item);
+    const cartItem = data.find((it) => it._id === item._id);
+    if (data.length) {
+      cartDispatch({ type: CartActionType.ADD_DATA, payload: cartItem });
+    }
+  };
+
   return (
     <div className="Wraper">
       <div className="product-Image-Container">
-        <img
-          src="https://images.unsplash.com/photo-1526666923127-b2970f64b422?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=872&q=80"
-          alt="product image"
-          className="Product-Img"
-        />
+        <img src={item?.image} alt="product image" className="Product-Img" />
       </div>
       <div className="Info-Container">
-        <p className="Product-Name">Headphone</p>
-        <p className="Product-Price">₹. 24000</p>
-        <p className="Product-Description">
-          About this item Iconic quiet. Comfort. And sound. The first noise
-          cancelling headphones are back, now with lightweight materials for
-          premium comfort and proprietary acoustic technology for deep, clear
-          audio.
-        </p>
+        <p className="Product-Name">{item?.name}</p>
+        <p className="Product-Price">₹. {item?.price}</p>
+        <p className="Product-Description">{item?.description}</p>
         <div className="Button-Container">
-          <button className="AddCartButton">Add to Cart</button>
-          <button className="BuyNowButton">Buy Now</button>
+          <button
+            className="AddCartButton"
+            onClick={() => (isInCart ? navigate("/cart") : addITemToCart())}
+          >
+            {isInCart ? "Go To Cart" : "Add to Cart"}
+          </button>
         </div>
       </div>
     </div>

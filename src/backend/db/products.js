@@ -8,30 +8,6 @@ import { v4 as uuid } from "uuid";
 export const products = [
   {
     _id: uuid(),
-    title: "You Can WIN",
-    author: "Shiv Khera",
-    price: "5000",
-    categoryName: "non-fiction",
-  },
-  {
-    _id: uuid(),
-    title: "You are Winner",
-    author: "Junaid Qureshi",
-    price: "3000",
-    categoryName: "horror",
-  },
-  {
-    _id: uuid(),
-    title: "Think and Grow Rich",
-    author: "Shiv Khera",
-    price: "1000",
-    categoryName: "fiction",
-  },
-];
-
-export const products = [
-  {
-    id: 1,
     name: "Bose QuietComfort 35 II",
     price: 29990,
     description:
@@ -41,7 +17,7 @@ export const products = [
     rating: 4.5,
   },
   {
-    id: 2,
+    _id: uuid(),
     name: "Sony WH-1000XM4",
     price: 7990,
     description:
@@ -51,7 +27,7 @@ export const products = [
     rating: 3.5,
   },
   {
-    id: 3,
+    _id: uuid(),
     name: "Sennheiser HD 660 S",
     price: 9990,
     description:
@@ -61,7 +37,7 @@ export const products = [
     rating: 3,
   },
   {
-    id: 4,
+    _id: uuid(),
     name: "Audio-Technica ATH-M50x",
     price: 24550,
     description:
@@ -71,7 +47,7 @@ export const products = [
     rating: 4.5,
   },
   {
-    id: 5,
+    _id: uuid(),
     name: "Beats Solo Pro",
     price: 25900,
     description:
@@ -81,7 +57,7 @@ export const products = [
     rating: 5,
   },
   {
-    id: 6,
+    _id: uuid(),
     name: "Sonos One",
     price: 21999,
     description:
@@ -92,7 +68,7 @@ export const products = [
     rating: 4.5,
   },
   {
-    id: 7,
+    _id: uuid(),
     name: "JBL Flip 5",
     price: 6499,
     description:
@@ -102,7 +78,7 @@ export const products = [
     rating: 3,
   },
   {
-    id: 8,
+    _id: uuid(),
     name: "UE Boom 3",
     price: 13995,
     description:
@@ -112,7 +88,7 @@ export const products = [
     rating: 3.5,
   },
   {
-    id: 9,
+    _id: uuid(),
     name: "Bose SoundLink Revolve+",
     price: 14299,
     description:
@@ -122,7 +98,7 @@ export const products = [
     rating: 3.5,
   },
   {
-    id: 10,
+    _id: uuid(),
     name: "Harman Kardon Aura Studio 7",
     price: 16290,
     description:
@@ -133,7 +109,7 @@ export const products = [
     rating: 3.5,
   },
   {
-    id: 11,
+    _id: uuid(),
     name: "Apple AirPods Pro",
     price: 21009,
     description:
@@ -143,7 +119,7 @@ export const products = [
     rating: 5,
   },
   {
-    id: 12,
+    _id: uuid(),
     name: "Samsung Galaxy Buds Pro",
     price: 16499,
     description:
@@ -153,7 +129,7 @@ export const products = [
     rating: 4.5,
   },
   {
-    id: 13,
+    _id: uuid(),
     name: "Jabra Elite 85t",
     price: 45868,
     description:
@@ -163,7 +139,7 @@ export const products = [
     rating: 5,
   },
   {
-    id: 14,
+    _id: uuid(),
     name: "Sennheiser Momentum True Wireless 2",
     price: 19990,
     description:
@@ -173,13 +149,13 @@ export const products = [
     rating: 4.5,
   },
   {
-    id: 15,
+    _id: uuid(),
     name: "boAt Airdopes 441 Pro",
     price: 2499,
     description:
       "True wireless earbuds with immersive sound and instant voice assistant access.",
     image: "https://m.media-amazon.com/images/I/515u026d0pL._SY450_.jpg",
     category: "Earbuds",
-    rating: 3,
+    rating: 1,
   },
 ];

@@ -7,12 +7,12 @@
 .Product-Image-Container {
   width: 100%;
   height: 60vh;
-  object-fit: cover;
 }
 
 .Product-Img {
   height: 60vh;
   width: 80vh;
+  object-fit: cover;
 }
 
 .Info-Container {
@@ -49,7 +49,7 @@
   border-radius: 20px;
   cursor: pointer;
   height: 30px;
-  width: 20%;
+  width: 200px;
   background-color: teal;
   color: white;
   font-size: 20px;

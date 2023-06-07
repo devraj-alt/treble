@@ -5,6 +5,7 @@
 
 .Cart-Product-image {
   width: 200px;
+  object-fit: cover;
 }
 
 .Cart-Product-name-and-price {
@@ -32,6 +33,7 @@
 
 .Add-product {
   margin: 5px;
+  cursor: pointer;
 }
 
 .Product-qty {
@@ -41,4 +43,16 @@
 
 .Remove-product {
   margin: 5px;
+  cursor: pointer;
+}
+
+.cart-btn-remove {
+  margin: 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  height: 30px;
+  background-color: teal;
+  color: white;
+  font-size: 20px;
 }

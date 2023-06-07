@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./RegisterStyle.css";
 import { signUp } from "./services/Register";
+import { useNavigate } from "react-router-dom";
 
 export const Register = () => {
   const [userRegisteration, setUserRegistration] = useState({
@@ -9,6 +10,8 @@ export const Register = () => {
     name: "",
     phone: "",
   });
+
+  const navigate = useNavigate();
 
   const handleUserInput = (event) => {
     const { name, value } = event.target;
@@ -20,9 +23,12 @@ export const Register = () => {
     });
   };
 
-  const handleSignUp = (event) => {
+  const handleSignUp = async (event) => {
     event.preventDefault();
-    signUp(userRegisteration);
+    const res = await signUp(userRegisteration);
+    if (res) {
+      navigate("/");
+    }
   };
 
   return (
@@ -47,6 +53,7 @@ export const Register = () => {
             onChange={handleUserInput}
             placeholder="Phone"
             name="phone"
+            type="number"
           />
           <input
             value={userRegisteration.password}

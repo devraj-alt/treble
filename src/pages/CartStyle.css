@@ -54,5 +54,12 @@ body {
 }
 
 .Checkout-button {
-  margin-top: 20px;
+  margin: 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  height: 30px;
+  background-color: teal;
+  color: white;
+  font-size: 20px;
 }
