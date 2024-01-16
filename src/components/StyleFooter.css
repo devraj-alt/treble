@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
+.Footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+  background-color: #778899;
+}
+.Company-name {
+  color: black;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.Company-details-container {
+  text-align: center;
+}
+.About-us {
+  color: black;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.Privacy-policy {
+  color: black;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.Terms-of-use {
+  color: black;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.Contact-container {
+  display: flex;
+  gap: 15px;
+  text-align: center;
+}
+.Git-hub {
+  color: black;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.Linked-in {
+  color: black;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.X {
+  color: black;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bolder;
+  font-size: 18px;
+}

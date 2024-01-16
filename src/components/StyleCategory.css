@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
+.Container-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 30px;
+  margin: 100px;
+  padding: 10px;
+}
+
+.Category-container {
+  height: 100%px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s ease, border 0.5s ease;
+  border: 0.5px solid transparent;
+}
+
+.Category-container:hover {
+  transform: scale(1.5);
+  border: 1px solid white;
+}
+
+.Categories {
+  color: white;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}

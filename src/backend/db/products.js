@@ -12,7 +12,7 @@ import vaultST1 from "../../images/productsImage/guitars/VaultST1PremiumElectric
 import ibanezGSR205 from "../../images/productsImage/guitars/IbanezGSR205BassGuitar5String.jpg";
 //Keyboards
 import yamahaPSRSX900 from "../../images/productsImage/keybords/YAMAHAPSRSX900MidLevelArrangerKeyboard.jpg";
-import behringerDeepmind12 from "../../images/productsImage/keybords/BehringerDEEPMIND12TrueAnalog12VoicePolyphonicSynthesizer,jpg";
+import behringerDeepmind12 from "../../images/productsImage/keybords/BehringerDEEPMIND12TrueAnalog12VoicePolyphonicSynthesizer.jpg";
 import rolandRP501R from "../../images/productsImage/keybords/RolandRP501RBlackDigitalPiano.jpg";
 //Drums
 import pearlDrumSet from "../../images/productsImage/drumsets/PearlDrumSet.jpg";
@@ -40,6 +40,7 @@ import TAAPSEEAdapter from "../../images/productsImage/accessories/TAAPSEEAdapte
 import FourChannel3PinXLRSnakeMultiNetworkSnakeReceiver from "../../images/productsImage/accessories/FourChannel3PinXLRSnakeMultiNetworkSnakeReceiver.jpg";
 import UGREEN3MM_MALETO6MM_MALECABLE from "../../images/productsImage/accessories/UGREEN3MM_MALETO6MM_MALECABLE.jpg";
 import PLoynkAudioSpeakerCable from "../../images/productsImage/accessories/PLoynkAudioSpeakerCable.jpg";
+import RuhZaUSBMidiCableLeadAdaptor from "../../images/productsImage/accessories/RuhZaUSBMidiCableLeadAdaptor.jpg";
 //StudioGear
 import RØDENT1Microphone from "../../images/productsImage/studioGear/RØDENT1Microphone.jpg";
 import AKAIUSBMIDIKeyboardController from "../../images/productsImage/studioGear/AKAIUSBMIDIKeyboardController.jpg";
